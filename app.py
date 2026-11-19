@@ -8,7 +8,7 @@ import streamlit as st
 
 # ---------- Load the saved model and scaler ----------
 # model.pkl and scaler.pkl sit in the repo root, one folder above /app
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 
 @st.cache_resource
